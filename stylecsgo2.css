@@ -9,7 +9,6 @@ html{
 	-o-background-size: 100% 100%;        /* Opera 9.5 */
 	-webkit-background-size: 100% 100%;   /* Safari 3.0 */
 	background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) > CSS3 */ 
-
 	font: 1.1em sans-serif;
 }
 header{
@@ -199,9 +198,12 @@ padding:15px 25px}
     margin-top:-1px;
     border-top-right-radius:0;
     border-top-left-radius:0
+    background:rgba(64,63,63,.9);
 }
 .navbar{
     min-height:50px
+    background:rgba(64,63,63,.9);
+    color:#f8f8f8;
     }
 .navbar:after{clear:both}
 .navbar-collapse{
@@ -313,4 +315,63 @@ padding:15px 25px}
 .navbar-inverse .btn-link{color:#777}
 .navbar-inverse .btn-link:focus,.navbar-inverse .btn-link:hover{color:#fff}
 .navbar-inverse .btn-link[disabled]:focus,.navbar-inverse .btn-link[disabled]:hover,fieldset[disabled] .navbar-inverse .btn-link:focus,fieldset[disabled] .navbar-inverse .btn-link:hover{color:#444}
-//NAVBARfin//
+
+//---NAVBARfin//
+
+///---ROUE---///
+.bg {
+	position: absolute;
+	background-color: white;
+	border: 1px solid blue;
+	border-radius: 3px;
+}
+
+#pot {
+	width: 100%;
+}
+
+.pot-item {
+	width: 100%;
+	/* height: 75px; */
+	/* border: 1px solid black; */
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.pot-item-inner-container {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.pot-item:last-child {
+	margin-bottom: 0px;
+}
+
+.pot-image {
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.pot-item-image {
+	display: inline;
+	height: 100%;
+}
+
+.pot-item, #pot-items-price, #prev-game-info {
+	font-size: 18px;
+}
+
+.main-row {
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 10px 10px 0px 0px;
+}
+.rouediv{
+	background-color:#E7E7E7;
+	position:absolute;
+	float:left;
+	top: 250px;
+}
+
+///---ROUEfin---///
